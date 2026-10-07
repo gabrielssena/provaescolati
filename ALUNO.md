@@ -2,9 +2,9 @@
 
 # ALUNO
 
-Nome: Sena
+Nome: Gabriel de Souza Sena
 
-RA: >>> PREENCHER <<<
+RA: 230181062
 
 Conta GitHub: @gabrielssena
 
