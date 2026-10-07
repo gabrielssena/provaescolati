@@ -43,3 +43,6 @@ vendor/
 #      na RAIZ do repo PRIVADO teacher-escola-ti; esta entrada só evita que
 #      um _docente/ residual seja commitado aqui por engano.
 _docente/
+saida.txt
+dados/
+*.sqlite

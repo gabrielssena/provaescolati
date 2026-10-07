@@ -28,4 +28,16 @@
 # ---- Java/Spring ----
 # (multi-stage: maven build + jre run — veja o track 02 para inspiracao)
 
-FROM scratch
+# FROM scratch
+
+FROM php:8.3-cli-alpine
+
+WORKDIR /app
+COPY src/ /app/src/
+COPY variante/ /app/variante/
+
+RUN mkdir -p /data && chmod 777 /data
+
+EXPOSE 8080
+
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "/app/src", "/app/src/index.php"]
